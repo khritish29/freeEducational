@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Parking quiz question Driving Record Information</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="driving test leaner test quiz question driving" name="keywords" />
+    <meta content="Parking practice question test free driving test">
+    <meta name="robots" content="index, follow" />
+    <link rel='shortcut icon' href='img/logo.jpg' type='image/x-icon' />
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/stylesheet.min.css">
+    <link rel="stylesheet" href="./cssmain/course.css">
+    <link rel="stylesheet" href="./cssmain/style.css">
+    <link rel="stylesheet" href="./cssmain/anim.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1434551425333888"
+            crossorigin="anonymous"></script>    <style>
+
+
+    </style>
+</head>
+
+
+
+<body class="light">
+
+<header>
+    <h1><a href="../../../" id="home-link"></a></h1>
+    <!--    <a id="fork-me" href="https://github.com/SethClydesdale/pa-driver-tests">Fork Me</a>-->
+</header>
+<nav class="navbar navbar-expand-lg navbar-dark my-md-4 my-sm-2 mr-md-5">
+    <a class="navbar-brand" href="./">Free Education Hub</a>
+    <button class="navbar-toggler ml-auto mb-2" style="border:none;" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mt-2 mt-md-0 text-center">
+            <li class="nav-item text-center">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item text-center">
+                <a class="nav-link" href="parking.html">Driver Test</a>
+            </li>
+            <li class="nav-item text-center">
+                <a class="nav-link" href="0-level_past_paper.html">O-level past papers</a>
+            </li>
+            <li class="nav-item text-center">
+                <a class="nav-link" href="O-level-notes.html">O-level notes</a>
+            </li>
+            <li class="nav-item text-center">
+                <a class="nav-link" href="A-level_past_paper.html">A-level past papers</a>
+            </li>
+            <li class="nav-item text-center">
+                <a class="nav-link" href="A-level-Notes.html">A-level notes</a>
+            </li>
+            <!--                <li class="nav-item">-->
+            <!--                    <a class="nav-link" href="./about.html">About Us</a>-->
+            <!--                </li>-->
+            <li class="nav-item d-lg-none">
+                <a class="nav-link" onclick="changePageTheme()">Change Theme</a>
+            </li>
+
+            <a class="btn-theme d-none d-lg-inline-flex" onclick="changePageTheme()" data-toggle="tooltip"
+               data-placement="bottom" title="Change theme"><i class="bi bi-moon theme-icon"></i></a>
+        </ul>
+
+    </div>
+</nav>
+<div class="container-fluid main-cont">
+    <div class="container-fluid">
+
+        <div id="content">
+            <div id="lessons" class="content-block">
+                <h2 id="lesson-0" style="color:green" >Driver Knowledge Tests</h2>
+                <p>You can start testing your driver knowledge by selecting a test from below.</p>
+                <div class="lesson-exercises">
+                    <ul>
+                        <li><a style="color: #f16107" href="parking.html">Chapter 1 - Signals, Signs, and Pavement Markings</a></li>
+                        <li><a  style="color: #f16107" href="parking2.html">Chapter 2 - Learning to Drive</a></li>
+                        <li><a  style="color: #f16107" href="parking3.html">Chapter 3 - Driving Record Information</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="content">
+            <div id="exercise" class="content-block">
+                <h2 id="exercise-title" style="color:green" class="center">Chapter 3 - Driving Record Information</h2>
+                <div id="quiz-result"></div>
+                <div id="quiz-zone" class="clear"></div>
+                <div id="quiz-timer" class="center"></div>
+            </div>
+        </div>
+
+
+        <script src="resources/easytimer.min.js"></script>
+        <script src="resources/ezquiz.min.js"></script>
+        <script src="resources/javascript.min.js"></script>
+        <script>EZQuiz.generate({
+            info : 'Answer the questions as best as you can.',
+
+            quiz : [
+                {
+                    question : 'The minimum drinking age in this state is ____ years.',
+                    answers : [
+                        '+21',
+                        '20',
+                        '18',
+                        '9'
+                    ]
+                },
+
+                {
+                    question : 'People under 16 years of age who use a false identification card to buy alcohol will:',
+                    answers : [
+                        '+Receive a driving suspension that starts on their 16th birthday',
+                        'Not be able to take the driver’s exam until their 21st birthday',
+                        'Receive a driving suspension that starts on their 21st birthday',
+                        'Be sent to an alcohol safety education class'
+                    ]
+                },
+
+                {
+                    question : 'If a person under 21 years old consumes alcohol, but is not driving a motor vehicle, the penalty for a first offense is:',
+                    answers : [
+                        '+A 90-day driver license suspension and up to a $500 fine',
+                        'A 6-month probation',
+                        'Sentence to a corrections institution',
+                        'Points on the driving record'
+                    ]
+                },
+
+                {
+                    question : 'Parental consent to conduct breath, blood, and urine tests is:',
+                    answers : [
+                        '+Not required',
+                        'Required from only one parent',
+                        'Required for people under 16 years old',
+                        'Required from both parents'
+                    ]
+                },
+
+                {
+                    question : 'It is against the law for anyone under the age of 21 to ______ alcohol.',
+                    answers : [
+                        '+Consume',
+                        'Serve',
+                        'Be in the presence of',
+                        'Wear clothing advertising'
+                    ]
+                },
+
+                {
+                    question : 'It is against the law for anyone under the age of 21 to ______ alcohol.',
+                    answers : [
+                        '+Possess',
+                        'Serve',
+                        'Be in the presence of',
+                        'Wear clothing advertising'
+                    ]
+                },
+
+                {
+                    question : 'It is against the law for anyone under the age of 21 to ______ alcohol.',
+                    answers : [
+                        '+Transport',
+                        'Serve',
+                        'Wear clothing advertising',
+                        'Be in the presence of'
+                    ]
+                },
+
+                {
+                    question : 'One of the penalties for driving under the influence of alcohol is a(n):',
+                    answers : [
+                        '+Attendance to Alcohol Highway Safety School',
+                        '5 – year driver’s license suspension',
+                        '12 – hour sentence in jail',
+                        '$100.00 fine'
+                    ]
+                },
+
+                {
+                    question : 'If you are arrested for driving under the influence of alcohol and you refuse to take the blood test, you will recieve a:',
+                    answers : [
+                        '+Driver’s License Suspension',
+                        'Sentence of one day in jail',
+                        'Drug counseling treatment',
+                        '$300.00 fine'
+                    ]
+                },
+
+                {
+                    question : 'If a police officer requires you to take a blood, breath, or urine test, you:',
+                    answers : [
+                        '+Must take the test, or your license will be suspended',
+                        'May choose the test you prefer',
+                        'Must sign a consent form',
+                        'May refuse if underage'
+                    ]
+                },
+
+                {
+                    question : 'For a first conviction for driving under the influence at any blood alcohol concentration level, you could:',
+                    answers : [
+                        '+Pay a fine of at least $300',
+                        'Be required to drive with a restricted occupational license',
+                        'Be required to conduct a public education class on the dangers of drunk driving',
+                        'Lose your license for up to 5 years'
+                    ]
+                },
+
+                {
+                    question : 'If under 21 years of age you are considered to be driving while under the influence if your blood alcohol level is:',
+                    answers : [
+                        '+.02% or higher',
+                        '.05% or higher',
+                        '.08% or higher',
+                        '.10% or higher'
+                    ]
+                },
+
+                {
+                    question : 'If you are under age 21 and are convicted of driving under the influence of alcohol, you will receive a ____ license suspension for a first offense.',
+                    answers : [
+                        '+1-Year',
+                        '6-Month',
+                        '60-Day',
+                        '30-Day'
+                    ]
+                },
+
+                {
+                    question : 'If you are under age 21, and are convicted of carrying a false id card, you will be required to pay a $500 fine and your license will be suspended for 90 days.',
+                    answers : [
+                        '+Even if you were not driving',
+                        'Only if your blood alcohol content (BAC) is .02% or higher',
+                        'Only if you were driving at the time of arrest',
+                        'Only if your blood alcohol content (BAC) is .02% or higher and you were driving at the time of arrest'
+                    ]
+                },
+
+                {
+                    question : 'The zero tolerance law reduced the blood alcohol content (bac) from .08% to ____ for drivers under 21 to be charged with driving under the influence.',
+                    answers : [
+                        '+.02%',
+                        '.05%',
+                        '.07%',
+                        '.00%'
+                    ]
+                },
+
+                {
+                    question : 'If you are stopped by a police officer, you should:',
+                    answers : [
+                        '+Stay in your vehicle with your hands on the steering wheel, and wait for the officer to approach you',
+                        'Get out of your car and walk toward the patrol car',
+                        'Get your paperwork ready before the officer reaches your car',
+                        'Unbuckle your seat belt and lower your window'
+                    ]
+                }
+            ]
+        });</script>
+<link rel="stylesheet" href="resources/stylesheet.min.css">
+<script src="resources/javascript.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script src="./js1/main.js"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1434551425333888"
+     crossorigin="anonymous"></script> </html>
